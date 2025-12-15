@@ -4,8 +4,8 @@
 class Atmosenv < Formula
   desc "Atmos version manager inspired by tfenv"
   homepage "https://github.com/jamengual/atmosenv"
-  url "https://github.com/jamengual/atmosenv/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "988f8fc2c2c7b96a24abe86a96b7de20bc39e6de44ec1d3ee3f521f4c1ce53ea"
+  url "https://github.com/jamengual/atmosenv/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "dff1056d2711979159befa19c6926e1c34bf7ea471f43cc496e0c16a47fc4d93"
   license "Apache-2.0"
   head "https://github.com/jamengual/atmosenv.git", branch: "main"
 
