@@ -4,8 +4,8 @@
 class Atmosenv < Formula
   desc "Atmos version manager inspired by tfenv"
   homepage "https://github.com/jamengual/atmosenv"
-  url "https://github.com/jamengual/atmosenv/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "dff1056d2711979159befa19c6926e1c34bf7ea471f43cc496e0c16a47fc4d93"
+  url "https://github.com/jamengual/atmosenv/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "a433cac6a28bf95aa0be70cb4dc47e6b3eafb89775629b304eb4af5733d2c9d6"
   license "Apache-2.0"
   head "https://github.com/jamengual/atmosenv.git", branch: "main"
 
@@ -17,7 +17,7 @@ class Atmosenv < Formula
   conflicts_with "atmos", because: "atmosenv symlinks atmos binaries"
 
   def install
-    prefix.install %w[bin lib libexec]
+    prefix.install %w[bin libexec]
     prefix.install "share" if File.directory?("share")
   end
 
